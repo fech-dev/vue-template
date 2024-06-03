@@ -14,6 +14,7 @@ const IconifyResolver: ComponentResolver = (name: string) => {
     return { name, from: '@iconify/vue' }
   }
 }
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
